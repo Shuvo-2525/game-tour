@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(16, 16, 27);
+    font-family: regularFont;
+    
+}
+
+@font-face {
+    src: url(../fonts/RedRose-Regular.ttf);
+    font-family: regularFont;
+}
+
+/* .navbar {
+    background-color: transparent;
+    
+} */
+.nav-item a {
+    /* color: red!important;   Chang e the navigation color */
+}
+
+#nav-logo {
+    width: 40px;
+}
+
+li .current a {
+    color: red!important;
+
+}
+
+
+
+
+#navigateList li  {
+    padding-right: 40px ;
+
+}
+
+.section-1 {
+    margin-top: 80px;
+}
+
+.footer {
+    background-color: black;
+    border: 1px solid red;
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
